@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'http://localhost:8080/files/tutorials/fastai/course-v3/data/banana/export.pkl'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1Yf_QVoU4rR4FIzS1Al26T5VtmVFTIEPH'
 export_file_name = 'export.pkl'
 
 classes = ['black', 'grizzly', 'teddys']
